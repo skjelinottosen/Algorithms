@@ -52,7 +52,7 @@ namespace Graph_Unweighted
                     }
                 }
 
-
+                //Reads one line of data from each node
                 for (int i = 0; i < NumNodes; i++)
                 {
                     int nodeNumber = input.nextInt();
