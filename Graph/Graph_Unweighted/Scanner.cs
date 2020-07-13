@@ -44,7 +44,6 @@ namespace Graph_Unweighted
             return int.TryParse(currentWord, out dummy);
         }
 
-
         public string next()
         {
             try
@@ -56,7 +55,6 @@ namespace Graph_Unweighted
                 readNextWord();
             }
         }
-
 
 
         public int nextInt()
