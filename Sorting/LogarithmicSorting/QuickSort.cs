@@ -17,10 +17,8 @@ namespace LogarithmicSorting
                 //Finds partition
                 partition = FindPartition(array, min, max);
 
-                //Sorts left part
+                //Sorts the left and right part of the array
                 Sort(array, min, partition - 1);
-
-                //Sorts right part
                 Sort(array, partition + 1, max);
             }
         }
