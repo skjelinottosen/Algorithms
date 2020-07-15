@@ -41,6 +41,7 @@ namespace LogarithmicSorting
                 //Checks if the right array are done
                 if (right <= max - min)
                 {
+                    //Checks if the left array are done
                     if (left <= mid - min)
                     {
                         if (tmpArray[left] > tmpArray[right])
