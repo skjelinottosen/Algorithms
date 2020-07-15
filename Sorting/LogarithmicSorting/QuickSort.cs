@@ -1,12 +1,13 @@
 ﻿using System;
 namespace LogarithmicSorting
 {
+    //Average runtime O(n log(n)) 
     public class QuickSort
     {
         public QuickSort()
         {
         }
-
+        
         public void Sort(int[] array, int min, int max)
         {
             int partition;
